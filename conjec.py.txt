@@ -1,0 +1,13 @@
+def collatz(num):
+  if num%2 == 0:
+    return (num//2)
+  elif number%2 ==1:
+    return (num *3 +1)
+
+x= int(input("type in an integer:"))
+y = collatz(x)
+print (y)
+while y!=1:
+  y=collatz(y)
+  print(y)
+print("thank you")
